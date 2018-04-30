@@ -11,7 +11,7 @@ import com.iape.cobranca.model.Conta;
 import com.iape.cobranca.repository.ContaRepository;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping(path = "contas")
 public class ContaResource {
 
 	@Autowired
